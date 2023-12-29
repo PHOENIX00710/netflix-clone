@@ -1,0 +1,12 @@
+.genre-container{
+    padding: 0.5rem;
+    
+    >h2{
+        font-size: 1.6rem;
+    }
+    >.cards{
+        display: flex;
+        gap: 0.6rem;
+        height: 200px;
+    }
+}
