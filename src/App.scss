@@ -1,7 +1,11 @@
-*{
+@import url("https://fonts.googleapis.com/css2?family=Lobster&family=Roboto&display=swap");
+
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   color: white;
   background-color: rgb(16, 16, 17);
+  font-family: "Lobster", sans-serif;
+  font-family: "Roboto", sans-serif;
 }

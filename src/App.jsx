@@ -8,18 +8,16 @@ function App() {
   return (
     <>
       <Router>
-        <Header/>
-        <Routes>
-          <Route path="/movies" element={<TopMovies/>} />
-          <Route path="/tvShows" element={<TopMovies/>} />
-          <Route path="/recommendations" element={<TopMovies/>} />
-          <Route path="/about" element={<TopMovies/>} />
-        </Routes>
+        <Header />
         <Banner />
-        <Card />
+        <Routes>
+          <Route path="/" element={<Card />} />
+          <Route path="/tvShows" element={<TopMovies />} />
+          <Route path="/recommendations" element={<TopMovies />} />
+          <Route path="/about" element={<TopMovies />} />
+        </Routes>
       </Router>
     </>
-      
   );
 }
 

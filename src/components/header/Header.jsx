@@ -7,12 +7,12 @@ import { Link } from "react-router-dom";
 const Header = () => {
   return (
     <div className="header">
-      <img src={logo} alt="netflix-logo" />
+      <Link to={"/"}><img src={logo} className="logo-img" alt="netflix-logo" /></Link>
       <nav className="links">
-        <Link to={"./movies"}>Top Movies</Link>
-        <Link to={"./tvShows"}>Tv Shows</Link>
-        <Link to={"./recommendations"}>Recommendations</Link>
-        <Link to={"./about"}>About Us</Link>
+        <Link to={"/"}>Movies</Link>
+        <Link to={"/tvShows"}>TV Shows</Link>
+        <Link to={"/recommendations"}>Recently Added</Link>
+        <Link to={"/about"}>My List</Link>
       </nav>
       <IoSearch />
     </div>
